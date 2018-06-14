@@ -908,6 +908,7 @@ textarea:focus,
 }
 
 .bgded {
+	align-items: center;
 	background-image:url('../../images/demo/gallery/back4.jpg');
 }
 
@@ -947,6 +948,8 @@ textarea:focus,
 .imgover,
 .imgover:hover::after {
 	color: #FFFFFF;
+	align-items: center;
+	display: block;
 }
 
 
@@ -1294,11 +1297,11 @@ table a,
 	.one_quarter,
 	.two_quarter,
 	.three_quarter {
-		display: block;
+		display: flex;
 		float: none;
-		width: auto;
 		margin: 0 0 30px 0;
 		padding: 0;
+		align-items: center;
 	}
 	#header {
 		text-align: center;
