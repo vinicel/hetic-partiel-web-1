@@ -410,6 +410,14 @@
 	text-align: center;
 }
 
+.fleche {
+	height: 50px;
+	width: 50px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	margin-left: 50%;
+}
 
 /* Copyright --------------------------------------------------------------------------------------------------------------- */
 
