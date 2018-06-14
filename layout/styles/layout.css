@@ -883,9 +883,14 @@ textarea:focus,
 	border-color: #CF9C67;
 }
 
+.bgded {
+	background-image:url('images/demo/gallery/back4.jpg');
+}
+
 .overlay {
 	color: #FFFFFF;
 	background-color: inherit;
+	background-image:url('../../images/demo/gallery/arma-prestige.jpg');
 }
 
 .overlay::after {
@@ -936,6 +941,7 @@ textarea:focus,
 .row2 {
 	color: #FFFFFF;
 	background-color: #222222;
+	background-image:url('../../images/demo/gallery/back3.jpg');
 }
 
 .row3 {
